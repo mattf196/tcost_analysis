@@ -11,8 +11,9 @@ Models:
 - Model D: cost = β₀ + β₁ * trade_size + β₂ * volatility + β₃ * volatility * trade_size
 
 Features:
-- Generates simulated trading data (80,000 samples) with known parameters
+- Reads tcost.csv, a file with 100,000 actual hedge fund trades.
 - Fits models using both Mean Absolute Error (MAE) and Mean Squared Error (MSE) loss functions
+  (for illustration of model fit, examine simulated data option in code below).
 - Calculates bootstrap standard errors for parameter estimates
 - Computes model performance metrics (MSE, MAE, Pseudo R²)
 - Generates comprehensive statistical summaries and outlier analysis
