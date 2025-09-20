@@ -15,7 +15,7 @@ This tool implements and compares four different transaction cost models:
 ## Features
 
 Features:
-- Empirically examins 100,000 actual hedge fund trades.
+- Empirically examines 100,000 actual hedge fund trades.
 - Generates 80,000 simulated trading samples with known parameters
 - Fits models using MAE and MSE loss functions
 - Calculates bootstrap standard errors for parameter estimates
